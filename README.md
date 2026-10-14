@@ -2,7 +2,7 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0A66C2,100:00C9A7&height=220&section=header&text=Hi,%20I'm%20[Your%20Name]&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Aspiring%20SOC%20Analyst%20%7C%20Blue%20Team%20Enthusiast&descAlignY=58&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0A66C2,100:00C9A7&height=220&section=header&text=Hi,%20I'm%20INTASAB FATIMA]&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Aspiring%20SOC%20Analyst%20%7C%20Blue%20Team%20Enthusiast&descAlignY=58&descSize=20" width="100%" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9A7&center=true&vCenter=true&width=700&lines=%F0%9F%9B%A1%EF%B8%8F+Learning+to+detect+threats+one+log+at+a+time;%F0%9F%94%8D+Log+Analysis+%7C+Wireshark+%7C+Nmap+%7C+Sysmon;%F0%9F%90%A7+Linux+%26+Networking+Enthusiast;%F0%9F%8E%AF+Goal%3A+Become+a+SOC+Analyst" alt="Typing SVG" />
