@@ -26,7 +26,6 @@ I'm a cybersecurity student from Pakistan who learns by building. I set up my ow
 ## 🔬 Featured Labs
 | Project | What I did | Tools |
 |---|---|---|
-| [Network Scan & Traffic Analysis](https://github.com/intasab/network-analysis-lab) | Scanned a target and analyzed the scan traffic | Nmap, Wireshark |
 | [Brute Force Detection Lab](https://github.com/intasab/brute-force-detection-lab) | Generated failed SSH logins and detected them in auth.log | Linux, grep, SSH |
 
 ## 🎯 Currently
