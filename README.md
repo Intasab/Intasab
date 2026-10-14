@@ -89,7 +89,7 @@ timeline
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0d1117" />
+<img src="https://streak-stats.demolab.com?user=Intasab&theme=tokyonight&hide_border=true&background=0d1117" />
 
 <br/>
 
