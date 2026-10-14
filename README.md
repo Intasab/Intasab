@@ -1,45 +1,119 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=160&section=header&text=Intasab%20Fatima&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Cybersecurity%20Learner%20%7C%20Blue%20Team&descAlignY=65" width="100%"/>
+<h1 align="center">👋 Hi, I'm Intasab Fatiam</h1>
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2C9FFF&center=true&vCenter=true&width=600&lines=Network+Traffic+Analysis;Log+Monitoring+%26+Threat+Detection;Building+Hands-on+SOC+Labs)](https://git.io/typing-svg)
-
-![Profile Views](https://komarev.com/ghpvc/?username=intasab&color=2c5364&style=flat-square)
-
-</div>
-
-## 👋 About Me
-I'm a cybersecurity student from Pakistan who learns by building. I set up my own labs, simulate activity safely, and write up what the logs and packets show. I'm looking for a remote cybersecurity internship where I can keep growing.
-
-## 🛠️ Skills & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,kali,bash,powershell,windows,git,github,python" />
-</p>
-
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge)
-![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-
-**Focus areas:** Networking fundamentals · Port scanning · Packet analysis · Linux security commands · Windows Event Logs · Brute-force detection
-
-## 🔬 Featured Labs
-| Project | What I did | Tools |
-|---|---|---|
-| [Brute Force Detection Lab](https://github.com/intasab/brute-force-detection-lab) | Generated failed SSH logins and detected them in auth.log | Linux, grep, SSH |
-
-## 🎯 Currently
-- 🔭 Learning SOC analysis and detection basics
-- 🧪 Practicing hands-on security labs
-
-
-## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=intasab&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=intasab&theme=tokyonight&hide_border=true" height="150"/>
+  <b>Aspiring SOC Analyst</b> | Blue Team Enthusiast | Cybersecurity Student<br>
+  <i>Learning to detect, investigate, and respond to threats — one log at a time.</i>
 </p>
 
-## 📫 Connect
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:intasabfatima397@gmail.com)
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-SOC%20Analyst-blue?style=for-the-badge&logo=security&logoColor=white" />
+  <img src="https://img.shields.io/badge/Blue%20Team-Defender-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Learning%20%26%20Building-success?style=for-the-badge" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
+---
+
+## 🛡️ About Me
+
+I'm a cybersecurity student on a path to becoming a **SOC (Security Operations Center) Analyst**. I enjoy digging into logs, spotting suspicious behavior, and understanding *how* attacks look from the defender's side. I build hands-on lab projects to turn theory into real detection skills.
+
+🎯 **Goal:** Start my career as a SOC Analyst (Tier 1) and grow into threat detection & incident response.
+
+---
+
+## 🧰 Skills & Tools
+
+| Area | What I've Learned |
+|------|-------------------|
+| 🌐 **Networking** | Networking fundamentals, TCP/IP, common protocols |
+| 🔍 **Packet Analysis** | Wireshark |
+| 🐧 **Linux** | Command line, file system, permissions, log files |
+| 📡 **Scanning** | Nmap (host discovery, port & service scanning) |
+| 📜 **Log Analysis** | Linux `auth.log`, filtering & investigating events |
+| 🪟 **Endpoint Monitoring** | Sysmon (Windows event telemetry) |
+
+<p>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=flat-square" />
+  <img src="https://img.shields.io/badge/Sysmon-0078D6?style=flat-square&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+</p>
+
+---
+
+## 🚀 Featured Project: SSH Brute Force Detection
+
+**Goal:** Detect brute-force login attempts against an SSH service by analyzing Linux authentication logs in a home SOC lab.
+
+### 🧪 Lab Setup
+- **Target:** Ubuntu machine (`ubuntu-soc-target`) running OpenSSH
+- **Attacker / Source:** Separate host on the lab network attempting repeated SSH logins
+- **Data Source:** `/var/log/auth.log`
+
+### 🔎 What I Did
+1. Generated multiple failed SSH login attempts against the target.
+2. Investigated the logs using Linux command-line tools (`grep`, `tail`, `cut`).
+3. Identified repeated `Failed password` events from the same source IP and port.
+4. Counted failed attempts to confirm brute-force behavior (`grep -c`).
+5. Noted my own investigation activity in the log (`sudo` command entries) — a good reminder that **analyst actions are logged too**.
+
+### 💻 Example Commands
+
+```bash
+# View the latest failed SSH logins
+sudo grep "Failed password" /var/log/auth.log | tail -n 10
+
+# Count total failed attempts
+sudo grep -c "Failed password" /var/log/auth.log
+```
+
+### 📌 Key Findings
+- Repeated `Failed password` events for the same user from a single source IP within a short time window = **classic brute-force indicator**.
+- Log fields useful for investigation: **timestamp, username, source IP, source port, service (sshd)**.
+
+### 📚 What I Learned
+- How SSH authentication failures appear in `auth.log`
+- How to filter and trim noisy logs to find real signals
+- The difference between normal failed logins and brute-force patterns
+- Why log retention and monitoring matter for detection
+
+### 🔜 Next Steps
+- [ ] Automate detection with a Bash/Python script (threshold-based alerting)
+- [ ] Install and configure **Fail2Ban** to block offending IPs
+- [ ] Forward logs to a SIEM (Splunk / Wazuh / ELK)
+- [ ] Map findings to **MITRE ATT&CK** (T1110 – Brute Force)
+- [ ] Write an incident report for the case
+
+> 📸 *Screenshots and full write-up available in the project repository:* **[link to repo]**
+
+---
+
+## 🗺️ Learning Roadmap
+
+- [x] Networking Fundamentals
+- [x] Wireshark
+- [x] Linux
+- [x] Nmap
+- [x] Log Analysis
+- [x] Sysmon
+- [ ] SIEM (Splunk / Wazuh / ELK)
+- [ ] MITRE ATT&CK Framework
+- [ ] Incident Response Basics
+- [ ] Windows Event Logs & Active Directory Security
+- [ ] Threat Hunting
+- [ ] Security+ / Blue Team certifications
+
+---
+
+## 📫 Let's Connect
+
+<p>
+  <a href="https://www.linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <i>“Every log tells a story. I'm learning to read them.”</i> 🔐
+</p>
