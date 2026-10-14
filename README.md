@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0A66C2&labelColor=0d1117&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=Intasab&label=Profile%20Views&color=0A66C2&labelColor=0d1117&style=for-the-badge" />
 <img src="https://img.shields.io/badge/Focus-SOC%20Analyst-0A66C2?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/Status-Learning%20%26%20Building-00C9A7?style=for-the-badge&labelColor=0d1117" />
 
